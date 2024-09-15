@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif; /* Sets a default font */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #FFF700; /* Geel */
+}
+    
+header {
+    background-color: #0066CC; /* Blauw */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+    
+nav {
+    background-color: #004D99; /* Donkerblauw */
+    padding: 10px;
+}
+    
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+    
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+    
+main {
+    display: flex;
+    flex-direction: column; /* Ensures elements are stacked */
+    align-items: center; /* Centers child elements horizontally */
+    margin: 20px;
+    text-align: center; /* Centers text within main */
+}
+ 
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center; /* Ensures h2 headings are centered */
+    margin: 20px 0; /* Adds space around h2 */
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center; /* Centers all paragraphs */
+}
+
+.vacatures, .nieuws, .over-ons, .contact {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Centers the text in these sections */
+}
+    
+footer {
+    background-color: #004D99;    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+    
+h1, h2, p, h3 {
+    text-align: center; /* Centers text within all headings and paragraphs */
+}

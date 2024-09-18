@@ -1,19 +1,19 @@
 /* Global styles (default styles) */
 
 /* Mobile styles */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     /* Styles for mobile devices */
 }
 
 /* Tablet styles */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
     /* Styles for tablets */
 }
 
 /* Desktop styles */
-@media only screen and (min-width: 1025px) {
+ 
     /* Styles for desktops */
-}
+
 body {
         font-family: Arial, sans-serif; /* Sets a default font */
         margin: 0; /* Removes default margin */
@@ -22,17 +22,25 @@ body {
     /* Global styles (default styles) */
     
     /* Mobile styles */
-    @media only screen and (max-width: 767px) {
+    
         /* Styles for mobile devices */
-    }
+    
+
+    
+        
+    
+
+     
+        
+    
     
     /* Tablet styles */
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    @media only screen and (min-width: 300px) and (max-width: 1024px) {
         /* Styles for tablets */
     }
     
     /* Desktop styles */
-    @media only screen and (min-width: 1025px) {
+     
        /* Styles for desktops */
      }
        
@@ -99,7 +107,8 @@ body {
        padding: 10px;
        position: fixed;
       bottom: 0;
-      width: 100%; }
+      width: 100%;
+      height: 150px; }
       
     h1, h2, p, h3 {
-       text-align: center; /* Centers text within all headings and paragraphs *}
+       text-align: center;   }
